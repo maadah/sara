@@ -1,0 +1,77 @@
+AI Capabilities and Style of Work
+
+Cart & Ordering
+- Create Cart: create a new shopping cart for a user session.
+- Update Cart: add, remove, or change item quantities in an existing cart.
+- Remove Item: delete items from cart.
+- Set Quantity: extract and set requested item counts from user utterances.
+- Apply Discounts / Promotions: apply pricing rules or coupons to cart.
+- Checkout / Place Order: confirm payment and create an order.
+- Modify / Cancel Order: update or cancel existing orders on request.
+- Restore / Backup Orders: support scripts and utilities for restore/backup.
+
+Product Search & Matching
+- Search Items: search by name, SKU, description, or attributes.
+- Fuzzy Matching: handle typos and approximate queries.
+- Category Matching: map user terms to product categories.
+- Product Recommendation: suggest alternatives or upsells.
+- Filter & Sort: apply filters (price, category) and sort results.
+
+Conversation, Intent & Entity Handling
+- Intent Detection: classify user intent (create cart, ask status, return).
+- Entity Extraction: extract product names, quantities, SKUs, dates, addresses.
+- Slot Filling / Follow-ups: ask clarifying questions when info missing.
+- Multi-turn Context: maintain context across turns for stateful flows.
+- Confidence Handling: use thresholds for fallback and clarifying prompts.
+- Disambiguation: present options when multiple matches exist.
+
+Order Inquiry & Notifications
+- Order Status Lookup: check and report current order status.
+- Shipping & Tracking: provide shipping info and tracking updates.
+- Notifications: send order updates and messages to customers.
+
+FAQ, Knowledge & Support
+- FAQ Handling: answer common questions from FAQ database.
+- Escalation: route to human agents when needed.
+- Troubleshooting Guidance: provide diagnostics and recovery steps.
+
+Messaging & Integration
+- Multi-channel Support: integrate with chat APIs / messaging channels.
+- Quick Replies / Buttons: present templated quick responses.
+- Webhooks & Events: consume and emit events for order lifecycle.
+- Third-party Integrations: connectors for GROQ, INVENGPT, etc.
+
+Analytics, Monitoring & Diagnostics
+- Usage Analytics: track interactions and conversation metrics.
+- AI Diagnosis: detect and report model/intent problems.
+- Logging & Auditing: log actions and decisions for review.
+
+Data Extraction & Validation
+- Quantity Extraction: parse utterances to determine requested counts.
+- Address / Payment Validation: verify format and completeness.
+- Entity Normalization: normalize variants (sizes, colors, units).
+
+Safety, Filtering & Quality
+- Smart AI Filtering: filter inappropriate content and bad data.
+- Fallbacks & Safe Responses: default safe behavior when uncertain.
+- Response Quality Checks: guardrails to avoid hallucinations.
+
+Admin, Ops & Developer Tools
+- Test Suites: automated tests for chatflows and matching.
+- Scripts: database repair, restore, and backup utilities.
+- Configuration: settings for providers, services, and environment.
+- Training / Update Guides: docs for training and improving models.
+
+Style of Work (How the AI Operates)
+- Intent-driven workflows: actions triggered by detected intents.
+- Entity-first extraction then action: extract entities before acting.
+- Slot-filling dialogs: ask minimal clarifying questions.
+- Confidence-based branching: confirm or clarify when unsure.
+- Stateful, session-aware: maintain cart/order state across turns.
+- API-driven actions: perform create/update via backend service calls.
+- Template-based responses + quick replies: combine text and structured UI.
+- Fallback and human-handover: graceful fallback and escalation.
+- Logging and analytics instrumentation: transactional decisions logged.
+- Iterative improvement: use tests and analytics to refine models.
+
+End of file.
