@@ -183,7 +183,7 @@
 
         <div class="form-actions-bar">
             <a href="{{ route('customer.products.index') }}" class="btn btn-secondary">إلغاء</a>
-            <button type="submit" class="btn btn-primary">حفظ</button>
+            <button type="submit" class="btn btn-primary"></button>
             <div class="page-header-bar">
     <h1 class="page-title">أضافة منتج</h1>
 </div>
