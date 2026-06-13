@@ -3,9 +3,7 @@
 @section('title', 'إضافة منتج - لوحة التحكم')
 
 @section('content')
-<div class="page-header-bar">
-    <h1 class="page-title">أضافة منتج</h1>
-</div>
+
 
 <div class="product-form-container">
     @php
@@ -186,6 +184,9 @@
         <div class="form-actions-bar">
             <a href="{{ route('customer.products.index') }}" class="btn btn-secondary">إلغاء</a>
             <button type="submit" class="btn btn-primary">حفظ</button>
+            <div class="page-header-bar">
+    <h1 class="page-title">أضافة منتج</h1>
+</div>
         </div>
     </form>
 </div>
