@@ -1,6 +1,6 @@
 @extends('layouts.customer')
 
-@section('title', 'إضافة منتج - لوحة الان')
+@section('title', 'إضافة منتج - لوحة تغيييير')
 
 @section('content')
 
