@@ -21,7 +21,11 @@
             'دزينة',
         ];
     @endphp
+<button type="button" id="importFacebookBtn">
+    📥 استيراد من فيسبوك
+</button>
 
+<input type="text" id="facebookUrl" placeholder="رابط صفحة فيسبوك">
     <form action="{{ route('customer.products.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
