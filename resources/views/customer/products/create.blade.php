@@ -1,6 +1,6 @@
 @extends('layouts.customer')
 
-@section('title', 'إضافة منتج - لوحة maad')
+@section('title', 'إضافة منتج - لوحة1yes')
 
 @section('content')
 
